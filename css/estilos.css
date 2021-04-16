@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    background: #565454;
+    color: antiquewhite;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+}
+
+header img{
+    width: 100px;
+    margin-left: 46%;
+    margin-top: 1%;
+    border-radius: 100%;
+    
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+section{
+width: 70%;
+margin: 0 auto 0 auto;
+}
+
+article{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 0%;
+    padding-right: 0%;
+    border-bottom: rgb(1, 60, 224) dotted 1px;
+
+}
+
+article h2{
+    float: left;
+    border-bottom:solid 2px cornflowerblue;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    line-height: 1.3em;
+    font-size: 1em;
+}
+
+article p,article ul{
+    margin-left: 20%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.3em;
+    color: 817c7c;
+    margin-bottom: 1.5em;
+}
+
+article ul li{
+    margin-left: 15px;
+    list-style: square;
+}
+
+article h3{
+    font-size: 1em;
+    margin-left: 20%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.3em;
+}
+
+footer{
+    margin-top: 3em;
+    padding: 2em;
+    width: 100%;
+    background-color: cyan;
+    color: black;
+
+}
+
+footer p{
+    text-align: center;
+}
+
+footer a link , footer a :visited{
+    color: black;
+    text-decoration: none;
+}
+
+footer a :hover{
+    text-decoration: none;
+    text-decoration: underline;
+}
